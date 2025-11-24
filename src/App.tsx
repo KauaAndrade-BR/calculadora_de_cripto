@@ -115,7 +115,7 @@ function App() {
             <div className="bg-white/20 rounded-2xl p-5 transform transition-all duration-300 hover:scale-[1.02]">
               <label className="block text-sm font-medium text-blue-100 mb-2">Para</label>
               <div className="flex gap-3">
-                <div className="flex-1 bg-white/30 border-2 border-white/40 rounded-xl px-4 py-3 text-white text-lg font-semibold">
+                <div className="flex-1 bg-white/30 border-2 border-white/40 rounded-xl px-4 py-3 text-white text-lg font-semibold overflow-hidden text-ellipsis">
                   {result.toLocaleString('pt-BR', {
                     minimumFractionDigits: 2,
                     maximumFractionDigits: 8,
